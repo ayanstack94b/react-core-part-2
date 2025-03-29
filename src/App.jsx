@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Counter from './Counter'
 import Batsman from './Batsman'
+import Users from './users'
 
 function App() {
   function handleClick() {
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <h3>Vite + React</h3>
+      <Users></Users>
       <Batsman></Batsman>
       <Counter></Counter>
       <button onClick={handleClick}>Click me</button>
